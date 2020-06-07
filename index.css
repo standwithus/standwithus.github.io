@@ -101,3 +101,7 @@ body {
     transition-timing-function: ease-in;
 }
 
+.sourcespage {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
