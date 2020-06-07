@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "participate.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+            <h1> Ways YOU can make a difference </h1>
+        </div>
+        <div class= "img-background" style="background-image:url(images/fist.jpeg)"> </div>
+        <div class="subtext-heading">
+            <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+            <p> There are so many ways that we as people can make a difference and can contribute to the cause.  Some ways include attending protests, signing petitions, calling/emailing government 
+            officials, and donating towards different organizations. Before saying that you support the movement, you must show it. Hover over the pictures to see ways you can make a difference! </p>
+        </div>
+        <div class="allthebuttons">
+            <a href  = "#change"> <button type="button" class = "but 1"> Think </button> </a>
+            <a href  = "#wisdom"> <button type= "button" class = "but 2"> Act </button> </a>
+            <a href  = "#selfcare"> <button type= "button" class = "but 3"> Advocate </button> </a>
+        </div>
+
+        <!-- <div class="globe"> 
+            <img src="images/earth-in-hands.jpg" style = "width:300px;height:200px;"> 
+        </div> -->
+
+        <div class="change">
+            <a name= "change"> </a>
+            <div class "content-wrapper">
+                <div class = "portfolio-items-wrapper">
+                    <div class = "portfolio-item-wrapper">
+                        <div class= "portfolio-img-background" style="background-image:url(images/blmprotest.jpg)"> </div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle"> 
+                                There are many protests that are happening all around the country, and you can definitely be a part of it.
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "portfolio-item-wrapper">
+                        <div class= "portfolio-img-background" style="background-image:url(images/gov.jpg)"> </div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                There are many petitions and ways to get in contact with your government officials. Some petitions to sign are Justice for George Floyd,
+                                Justice for Brianna Taylor, and Justice for Ahmaud Arbery. All these petitions can be found on change.org. You can also call DA Mike Freeman in 
+                                Minnesotta at 612-348-5550 , text FLOYD to 55-156, text JUSTICE to 66-8336, text ENOUGH to 55-165 and leave a message to Louisville Mayor and demand
+                                justice for Breonna Taylor at 502-574-2003. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "portfolio-item-wrapper">
+                        <div class= "portfolio-img-background" style="background-image:url(images/donation.jpg)"> </div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                    There are many organizations that you can donate to such as the George Floyd Memorial Fund, Minnesota Freedom Fund, Reclaim the Block, National Bail Out,
+                                    Black Lives Matter, Bail Project, Black Visions Collective, Campaign Zero, National Bail Fund Network, The Innocent Project, Run with Maud and Justice for Breonna. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="wisdom">
+            <a name= "wisdom"> </a>
+            <h3> STUFFFFFFF </h3>
+        </div>
+
+        <div class="selfcare"> 
+            <a name= "selfcare"> </a>
+            <p> HEIORHSEHROIAHEOIRO  </p>
+        </div>
+    </div>
+</body>
+
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+
+</html>

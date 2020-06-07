@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    background:whitesmoke;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.heading {
+    font-size: 90px;
+    color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; 
+    text-shadow: 2px 2px 4px rgb(48, 9, 9);
+}
+
+/* panel styles*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 250px;
+}
+
+.img-darken { 
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.subtitle {
+    font-family: 'Oswald', sans-serif;
+    /* //height: 30px; */
+    /* border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s; */
+}
+
+.subtitle a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+/* 
+.subtitle:hover {
+    border-bottom: 1px solid black;
+} */
+
+.subtitle a:hover {
+    color: maroon;
+    width: 50%;
+}
+
+.subtitle .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.subtitle .subtitle {
+    font-weight: 600;
+    color: white;
+}
+
+.img-darken {
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+.quote {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: maroon;
+    text-shadow: 0.5px 0.5px 1px black;
+    transition-timing-function: ease-in;
+}
+
