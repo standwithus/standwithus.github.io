@@ -13,28 +13,24 @@ body {
 }
 
 .subtext-heading {
-    width: 700px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 70%;
     text-align: center;
     position: relative;
-    left: 290px;
     font-size: 20px;
     color: black;
     font-family: 'Oswald', sans-serif; 
 }
 
-/* .globe {
-    position: absolute;
-    top: 80px;
-    right: 40px;
-    opacity: 0.8;
-} */
 .allthebuttons {
     text-align: center;
 }
 
 .but {
-    border:maroon;
-    background-color: maroon;
+    position: absolute;
+    border: darkblue;
+    background-color: lightskyblue;
     opacity: 0.6;
     padding: 10px 20px;
     color: white;
@@ -76,62 +72,69 @@ body {
     padding-right: 100px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .img-text-wrapper .subtitle { 
-    transition: 0.5s;
+    transition: 0.1s;
     color:transparent;
 }
 
 .img-text-wrapper:hover .subtitle {
     font-family: 'Oswald', sans-serif;
     color:whitesmoke;
-    /* height: 30px;  */
 }
 
 .img-darken { 
     transition: 1s;
     filter: brightness(10%);
 }
-.wisdom
-{
-    background-color: rgb(172, 197, 221);
-}
-.wordswisdom
-{
-    color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    font-weight: 100px;
-    text-align: center;
-    position: relative;
-    text-shadow: 1px 1px 2px rgb(48, 9, 9);
-}
-.listmental {
+/* .protestlist {
     color: rgb(35, 35, 83);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; 
     font-size: 20px;
     text-align: left;
-    margin-bottom: 0.5em;
+  } */
+
+  .section-blue {
+    background-color: rgb(173, 215, 255);
   }
-  .selfcare{
-    background-color: rgb(172, 197, 221);
+
+  .section-purple {
+    background-color: rgb(173, 215, 255);
   }
-  .self-care
-  {
+
+  .section-somecolor{
+    background-color: rgb(173, 215, 255);
+  }
+  
+  .section-header {
     color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; 
     font-size: 50px;
     font-weight: 100px;
     text-align: center;
     position: relative;
     text-shadow: 1px 1px 2px rgb(48, 9, 9);
   }
-  .vote
-  {
-    background-color: rgb(172, 197, 221);
+
+  .vote { 
     color: rgb(35, 35, 83);
     position: relative;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .listofways {
+    color: rgb(35, 35, 83);
+    position: relative;
+    font-family: 'Oswald', sans-serif; 
     font-size: 20px;
     text-align: left;
-    margin-bottom: 0.5em;
+  }
+  .twitterprotest {
+      position: relative;
   }
