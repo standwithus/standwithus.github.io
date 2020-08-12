@@ -10,15 +10,14 @@ body {
     text-align: center;
     font-family: 'Oswald', sans-serif; 
     text-shadow: 1px 1px 2px rgb(48, 9, 9);
-
 }
 
 .subtext-heading {
-    width: 700px;
-    left: 25%;
+    margin-right:auto;
+    margin-left: auto;
+    width: 70%;
     text-align: center;
     position: relative;
-    /* left: 2%; */
     font-size: 20px;
     color: black;
     font-family: 'Oswald', sans-serif; 
@@ -28,9 +27,10 @@ body {
     text-align: center;
 }
 
-.but {
-    border:maroon;
-    background-color: maroon;
+.but{
+    /* position: absolute; */
+    border: darkblue;
+    background-color: lightskyblue;
     opacity: 0.6;
     padding: 10px 20px;
     color: white;
@@ -40,7 +40,6 @@ body {
     margin: 15px;
     display: inline-block;
 }
-
 
 .portfolio-items-wrapper {
     display: grid;
@@ -199,3 +198,4 @@ body {
     text-align: left;
     margin-bottom: 0.5em;
   }
+  
