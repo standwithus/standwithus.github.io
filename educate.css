@@ -13,15 +13,32 @@ body {
 
 }
 
+.but {
+    position: absolute;
+    border: darkblue;
+    background-color: lightskyblue;
+    opacity: 0.6;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif; 
+    cursor: pointer;
+    margin: 15px;
+    display: inline-block;
+}
+
+
 .subtext-heading {
-    width: 700px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 70%;
     text-align: center;
     position: relative;
-    left: 400px;
     font-size: 20px;
     color: black;
     font-family: 'Oswald', sans-serif; 
 }
+
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -53,7 +70,7 @@ body {
 }
 
 .img-text-wrapper .subtitle { 
-    transition: 0.5s;
+    transition: 0.1s;
     color:transparent;
 }
 
@@ -63,16 +80,19 @@ body {
     /* height: 30px;  */
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .img-darken { 
     transition: 1s;
     filter: brightness(10%);
 }
 
-.wisdom
-{
-    position: absolute;
+.wisdom {
+    position: bottom;
     margin: auto;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 }
