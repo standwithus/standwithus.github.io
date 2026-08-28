@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background:whitesmoke;
+    background: #3b1d5e;
 }
 
 .container {
@@ -10,10 +10,10 @@ body {
 
 .heading {
     font-size: 90px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     font-family: 'Oswald', sans-serif; 
-    text-shadow: 2px 2px 4px rgb(48, 9, 9);
+    text-shadow: 2px 2px 4px rgb(26, 8, 43);
 }
 
 /* panel styles*/
@@ -74,7 +74,7 @@ body {
 } */
 
 .subtitle a:hover {
-    color: maroon;
+    color: #b98cff;
     width: 50%;
 }
 
@@ -97,8 +97,8 @@ body {
 .quote {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    color: maroon;
-    text-shadow: 0.5px 0.5px 1px black;
+    color: #d5bcff;
+    text-shadow: 0.5px 0.5px 1px rgb(26, 8, 43);
     transition-timing-function: ease-in;
 }
 
